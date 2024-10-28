@@ -1,4 +1,3 @@
-layout: {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 3}}
 layers:
   default:
   - - Q
