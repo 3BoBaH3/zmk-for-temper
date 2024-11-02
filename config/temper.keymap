@@ -125,25 +125,25 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <11 12>;
+            key-positions = <17 18>;
             timeout-ms = <30>;
         };
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 17>;
+            key-positions = <13 12>;
             timeout-ms = <30>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <12 13>;
+            key-positions = <16 17>;
             timeout-ms = <30>;
         };
 
         back {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 18>;
+            key-positions = <11 10>;
             timeout-ms = <30>;
         };
 
@@ -189,6 +189,12 @@
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <20 21>;
+        };
+
+        screenshot {
+            bindings = <&kp LC(LS(S))>;
+            key-positions = <10 11 12>;
+            layers = <0>;
         };
     };
 
