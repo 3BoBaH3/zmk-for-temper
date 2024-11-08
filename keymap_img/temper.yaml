@@ -1,5 +1,3 @@
-layout:
-  qmk_keyboard: 3w6/rev1
 layers:
   default:
   - - Q
